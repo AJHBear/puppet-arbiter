@@ -31,6 +31,9 @@
 # @param debug_mode_override
 #   Whether the debug override has been set.
 #
+# @param no_user_emails
+#   Whether to disable emails sent to users
+#
 # @param service_name
 #   The Arbiter service to manage. Default value: `arbiter2`.
 #
@@ -63,6 +66,7 @@ class arbiter (
   Array[String]                             $package_name        = $arbiter::params::package_name,
   Boolean                                   $debug_mode          = $arbiter::params::debug_mode,
   Boolean                                   $debug_mode_override = $arbiter::params::debug_mode_override,
+  Boolean                                   $no_user_emails      = $arbiter::params::no_user_emails,
   String                                    $version             = '2.1.0',
 ) inherits arbiter::params {
   include arbiter::install

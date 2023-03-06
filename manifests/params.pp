@@ -55,4 +55,7 @@ class arbiter::params inherits arbiter::version {
 
   # Debug override
   $debug_mode_override = true
+
+  # Disable email sent to users and insted send to admin
+  $no_user_emails = true
 }
