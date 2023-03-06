@@ -4,9 +4,9 @@
 
 1. [Description](#description)
 1. [Setup - The basics of getting started with arbiter2](#setup)
-    * [What arbiter2 affects](#what-arbiter2-affects)
+    * [What arbiter affects](#what-arbiter2-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with arbiter2](#beginning-with-arbiter2)
+    * [Beginning with arbiter](#beginning-with-arbiter2)
 1. [Usage - Configuration options and additional functionality](#usage)
 1. [Limitations - OS compatibility, etc.](#limitations)
 1. [Development - Guide for contributing to the module](#development)
@@ -17,7 +17,7 @@ The arbiter module installs, configures, and manages the Arbiter2 service.
 
 ## Setup
 
-### Beginning with arbiter2
+### Beginning with arbiter
 
 `include arbiter` will run the module with default parameters. To pass in parameters specify with values you would like to set:
 
